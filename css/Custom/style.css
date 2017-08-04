@@ -83,6 +83,9 @@ button{
 }
 
 section {
-	margin-top: 0px;
-	margin-bottom: 5px;
+	margin :0px 0px 5px 0px;
+	}
+
+.grid_6 {
+	margin :0px 5px 0px 0px;
 }
