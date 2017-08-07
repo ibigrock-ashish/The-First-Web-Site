@@ -81,10 +81,28 @@ img{
     margin-top :130px;
 }
 
-.acting{
-	width : 420px;
-	height : 220px;
+.photography-image{
+
+  background:url("../../img/photography.png");
+  width: 220px;
+  height: 220px;
+  margin-top: 130px;
 }
+
+.direction-image{
+  margin-top: 130px;
+  background:url("../../img/direction.png");
+  width: 220px;
+  height: 220px;
+}
+
+.acting-image{
+  margin-top: 130px;
+  background:url("../../img/acting.png");
+  width: 430px;
+  height: 220px;
+}
+
 /*Styling end to end unit*/
 .herounit {
 	/*margin-top: 115px;*/
