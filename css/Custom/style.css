@@ -20,7 +20,7 @@ color:#ffffff;
 
 a:hover{
 	
-	text-shadow: 0 0 7px #ffffff;
+	text-shadow: 0 0 10px #ffffff;
 }
 
 h2{
@@ -55,26 +55,15 @@ img{
 	/*margin-top: 115px;*/
 	height : 500px;
 	padding :14px 16px;
-	margin :0px;
+	margin :0;
 	text-align: center;
 	background:url("../../img/star.png");
     background-size: cover;
 }
 
-.herounit span {
-	font-size: 18px;
-	margin-left: 20px;
-}
-
-.herounit h3 {
-	font-size: 18px;
-	margin-left: 20px;
-
-}
-
 /*Styling footer*/
 .footer-social {
-	background:url("../../img/header.png");
+	background:url("../../img/footer.png");
     background-size: cover;
 	padding: 8px; 
 	background-color: #414f5c;
@@ -131,9 +120,9 @@ footer a {
 }
 
 section {
-	margin :0px 0px 5px 0px;
+	margin :0 0 5px 0;
 	}
 
 .grid_6 {
-	margin :0px 5px 0px 0px;
+	margin :0 5px 0 0;
 }
