@@ -1,13 +1,13 @@
 body {margin: 0;
 font-family: 'Slabo 27px', serif;
-background:url("../../img/body.jpg");
+background:url("../../img/body.png");
 background-size: cover;
 color:#ffffff;
 }
 
 /*Styling Nav Bar*/
 .header-menu {
-	background:url("../../img/header.jpg");
+	background:url("../../img/header.png");
     background-size: cover;
 	width : 100%;
     background-color: #414f5c;
@@ -73,7 +73,7 @@ img{
 
 /*Styling footer*/
 .footer-social {
-	background:url("../../img/header.jpg");
+	background:url("../../img/header.png");
     background-size: cover;
 	padding: 8px; 
 	background-color: #414f5c;
