@@ -1,4 +1,39 @@
-body {margin: 0;
+.read-more {
+  display: none;
+}
+
+.more {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more:checked ~ .read .more {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more ~ .more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more:checked ~ .more-trigger:before {
+  content: 'Show less';
+}
+
+.more-trigger {
+  cursor: pointer;
+  display: inline;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ffffff;
+  border-radius: .25em;
+}
+
+body {
+margin: 0;
 font-family: 'Slabo 27px', serif;
 background:url("../../img/body.png");
 background-size: cover;
@@ -55,7 +90,7 @@ img{
 	/*margin-top: 115px;*/
 	height : 500px;
 	padding :14px 16px;
-	margin :0;
+	margin : 0;
 	text-align: center;
 	background:url("../../img/star.png");
     background-size: cover;
